@@ -1,0 +1,30 @@
+SPAM DETECTOR
+
+RESUMO
+Acurácia:   0.9519
+ROC-AUC:    0.9872
+MCC:        0.8647
+FPR:        1.17%
+Precisão:   95.73%
+
+MATRIZ DE CONFUSÃO
+TN: 3222  FP: 38
+FN: 168   TP: 852
+
+
+              precision    recall  f1-score   support
+
+         Ham       0.95      0.99      0.97      3260
+        Spam       0.96      0.84      0.89      1020
+
+    accuracy                           0.95      4280
+   macro avg       0.95      0.91      0.93      4280
+weighted avg       0.95      0.95      0.95      4280
+
+HISTÓRICO (Últimas 5 épocas)
+Época    Loss T     Loss V     Acc V     
+16       0.3628     0.3932     0.9213    
+17       0.3671     0.3507     0.9435    
+18       0.3569     0.3292     0.9528    
+19       0.3608     0.3517     0.9428    
+20       0.3528     0.3369     0.9470    
